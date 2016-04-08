@@ -1,6 +1,4 @@
-
-	#How to Run the Project:
-
+# How to run this Project:
 	Please follow the below steps to run the project
 
 	1.      Install Android Studio
