@@ -1,5 +1,5 @@
 
-	#*****How to Run the Project:********
+	#How to Run the Project:
 
 	Please follow the below steps to run the project
 
