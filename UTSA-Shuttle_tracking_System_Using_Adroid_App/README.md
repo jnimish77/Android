@@ -4,7 +4,7 @@ Android is the latest and a rapid growing technology available for all the users
     	
 The basic idea for this project is to guide the students by displaying shuttle route maps, track their locations and show the estimate remaining time to reach. The functionalities provided by the system includes route information, shuttle information, stops information, map Generation, location tracking. Having these information in the database and constantly updating the database about the information of the shuttle and returning those information to the user.
 
-*Novelty of the Project:
+#Novelty of the Project:
 
 1.Its convenient way to track the collage shuttles’ timing and follow the schedule effectively based on the app.
 
@@ -15,7 +15,7 @@ The basic idea for this project is to guide the students by displaying shuttle r
 4.More accurate to predict expected arriving time of the shuttle.
 
 
-Challenges of the Project:
+#Challenges of the Project:
 
 	User must have GPS connection smartphone.
 
@@ -33,7 +33,7 @@ student.
 	The bus timings must match the real time bus arrival.
 
 
-	Overview:
+# Overview:
 
 Tracking system gives a communication infrastructure that allows Shuttle users to query and receive this information in real time. 
 The system uses vehicle’s positional data and route information to calculate estimated arrival times. Basically, this application at client side fetches the co-ordinates by using Maps, sends the co-ordinates to server, then server send an alerts to students who are registered for this service, also server provides Graphical Map of current Bus location by having markers on to the map.
