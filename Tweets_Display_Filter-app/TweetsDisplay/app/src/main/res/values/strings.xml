@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TweetsDisplay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Filter_Button">Filter</string>
+    <string name="title_activity_filter_criteria">FilterCriteria</string>
+    <string name="Viewname1">Filter</string>
+    <string name="Viewname2">Name</string>
+    <string name="Viewname3">EarliestTweetTime</string>
+    <string name="Viewname4">LatestTweetTime</string>
+    <string name="Viewname5">Search</string>
+    <string name="title_activity_display_results">DisplayResults</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="580dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:weightSum="1"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="0dp"
+        android:text="@string/Viewname1"
+        android:gravity="center"
+        android:id="@+id/FilterView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.26" />
+
+    <EditText
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameEnter"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:text="@string/Viewname2"
+        android:id="@+id/NameView"
+        android:layout_weight="0.15" />
+
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EarliestEnter"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/Viewname3"
+        android:id="@+id/EarliestTweetTime"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/LatestEnter"
+        android:layout_gravity="center_horizontal|right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Viewname4"
+        android:id="@+id/LatestView"
+        android:layout_weight="0.09" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Viewname5"
+        android:id="@+id/ToSeacrhButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
