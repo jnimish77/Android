@@ -1,0 +1,403 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Calc1Display"
+    android:id="@+id/Newlayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calculator"
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="78dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:text="
+                                                                       0"
+        android:id="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "MC"
+        android:textSize="8pt"
+        android:id="@+id/buttonmc"
+        android:layout_below="@+id/editText"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText">
+
+        </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "MS"
+        android:textSize="8pt"
+        android:id="@+id/buttonms"
+        android:layout_below="@+id/editText2"
+        android:layout_toRightOf="@+id/buttonmc"
+        android:layout_toEndOf="@+id/buttonmc">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "MR"
+        android:textSize="8pt"
+        android:id="@+id/buttonmr"
+        android:layout_below="@+id/editText2"
+        android:layout_toRightOf="@+id/buttonms"
+        android:layout_toEndOf="@+id/buttonms">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "M+"
+        android:textSize="8pt"
+        android:id="@+id/buttonmplus"
+        android:layout_below="@+id/editText2"
+        android:layout_toRightOf="@+id/buttonmr"
+        android:layout_toEndOf="@+id/buttonmr">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "M-"
+        android:textSize="8pt"
+        android:id="@+id/buttonmminus"
+        android:layout_above="@+id/buttonbackspace"
+        android:layout_toRightOf="@+id/buttonmplus"
+        android:layout_toEndOf="@+id/buttonmplus">
+
+    </Button>
+
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "←"
+        android:textSize="8pt"
+        android:id="@+id/buttonbackspace"
+        android:layout_below="@+id/buttonmc"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "CE"
+        android:textSize="8pt"
+        android:id="@+id/buttonclear"
+        android:layout_below="@+id/buttonms"
+        android:layout_toRightOf="@+id/buttonbackspace"
+        android:layout_toEndOf="@+id/buttonbackspace">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "C"
+        android:textSize="8pt"
+        android:id="@+id/buttonclean"
+        android:layout_below="@+id/buttonmr"
+        android:layout_toRightOf="@+id/buttonclear"
+        android:layout_toEndOf="@+id/buttonclear">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "±"
+        android:textSize="8pt"
+        android:id="@+id/buttonplusorminus"
+        android:layout_below="@+id/buttonmplus"
+        android:layout_toRightOf="@+id/buttonclean"
+        android:layout_toEndOf="@+id/buttonclean">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "√"
+        android:textSize="8pt"
+        android:id="@+id/buttonroot"
+        android:layout_below="@+id/buttonmminus"
+        android:layout_toRightOf="@+id/buttonplusorminus"
+        android:layout_toEndOf="@+id/buttonplusorminus">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "7"
+        android:textSize="8pt"
+        android:id="@+id/buttonseven"
+        android:layout_below="@+id/buttonbackspace"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "8"
+        android:textSize="8pt"
+        android:id="@+id/buttoneight"
+        android:layout_below="@+id/buttonclear"
+        android:layout_toRightOf="@+id/buttonseven"
+        android:layout_toEndOf="@+id/buttonseven">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "9"
+        android:textSize="8pt"
+        android:id="@+id/buttonnine"
+        android:layout_below="@+id/buttonclean"
+        android:layout_toRightOf="@+id/buttoneight"
+        android:layout_toEndOf="@+id/buttoneight">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "/"
+        android:textSize="8pt"
+        android:id="@+id/buttondivide"
+        android:layout_below="@+id/buttonplusorminus"
+        android:layout_toRightOf="@+id/buttonnine"
+        android:layout_toEndOf="@+id/buttonnine">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "%"
+        android:textSize="8pt"
+        android:id="@+id/buttonmodulus"
+        android:layout_below="@+id/buttonroot"
+        android:layout_toRightOf="@+id/buttondivide"
+        android:layout_toEndOf="@+id/buttondivide">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "4"
+        android:textSize="8pt"
+        android:id="@+id/buttonfour"
+        android:layout_below="@+id/buttonseven"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "5"
+        android:textSize="8pt"
+        android:id="@+id/buttonfive"
+        android:layout_below="@+id/buttoneight"
+        android:layout_toRightOf="@+id/buttonfour"
+        android:layout_toEndOf="@+id/buttonfour">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "6"
+        android:textSize="8pt"
+        android:id="@+id/buttonsix"
+        android:layout_below="@+id/buttonnine"
+        android:layout_toRightOf="@+id/buttonfive"
+        android:layout_toEndOf="@+id/buttonfive">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "*"
+        android:textSize="8pt"
+        android:id="@+id/buttonmultiply"
+        android:layout_below="@+id/buttondivide"
+        android:layout_toRightOf="@+id/buttonsix"
+        android:layout_toEndOf="@+id/buttonsix">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "1/x"
+        android:textSize="8pt"
+        android:id="@+id/buttononebyx"
+        android:layout_below="@+id/buttonmodulus"
+        android:layout_toRightOf="@+id/buttonmultiply"
+        android:layout_toEndOf="@+id/buttonmultiply">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "1"
+        android:textSize="8pt"
+        android:id="@+id/buttonone"
+        android:layout_below="@+id/buttonfour"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "2"
+        android:textSize="8pt"
+        android:id="@+id/buttontwo"
+        android:layout_below="@+id/buttonfive"
+        android:layout_toRightOf="@+id/buttonone"
+        android:layout_toEndOf="@+id/buttonone">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "3"
+        android:textSize="8pt"
+        android:id="@+id/buttonthree"
+        android:layout_below="@+id/buttonsix"
+        android:layout_toRightOf="@+id/buttontwo"
+        android:layout_toEndOf="@+id/buttontwo">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "-"
+        android:textSize="8pt"
+        android:id="@+id/buttonminus"
+        android:layout_below="@+id/buttonmultiply"
+        android:layout_toRightOf="@+id/buttonthree"
+        android:layout_toEndOf="@+id/buttonthree">
+
+    </Button>
+    <Button
+        android:layout_height="262px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "="
+        android:textSize="8pt"
+        android:id="@+id/buttonequals"
+        android:layout_below="@+id/buttononebyx"
+        android:layout_toRightOf="@+id/buttonminus"
+        android:layout_toEndOf="@+id/buttonminus">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="248px"
+        android:layout_weight="1"
+        android:text= "0"
+        android:textSize="8pt"
+        android:id="@+id/buttonzero"
+        android:layout_below="@+id/buttonone"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "."
+        android:textSize="8pt"
+        android:id="@+id/buttonpoint"
+        android:layout_below="@+id/buttontwo"
+        android:layout_toRightOf="@+id/buttonzero"
+        android:layout_toEndOf="@+id/buttonzero">
+
+    </Button>
+    <Button
+        android:layout_height="130px"
+        android:layout_width="125px"
+        android:layout_weight="1"
+        android:text= "+"
+        android:textSize="8pt"
+        android:id="@+id/buttonsplus"
+        android:layout_below="@+id/buttonthree"
+        android:layout_toRightOf="@+id/buttonpoint"
+        android:layout_toEndOf="@+id/buttonpoint">
+
+    </Button><![CDATA[
+
+
+
+
+
+
+    TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+]]>
+</RelativeLayout>
