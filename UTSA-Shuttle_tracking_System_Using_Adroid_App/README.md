@@ -1,15 +1,15 @@
 # Project Summary :
 
-    	Android is the latest and a rapid growing technology available for all the users in today’s market. There has been an enormous increase in the end user acceptance in the past few years. This Project is on developing an app that gives real time information about the shuttles running in UTSA, helping students to get information about shuttles and manage their time in accordance with their schedules. This project uses the shuttle location and the current location of the user to estimate the remaining time to reach the destination by using a server to feed and fetch data. 
+Android is the latest and a rapid growing technology available for all the users in today’s market. There has been an enormous increase in the end user acceptance in the past few years. This Project is on developing an app that gives real time information about the shuttles running in UTSA, helping students to get information about shuttles and manage their time in accordance with their schedules. This project uses the shuttle location and the current location of the user to estimate the remaining time to reach the destination by using a server to feed and fetch data. 
     	
 The basic idea for this project is to guide the students by displaying shuttle route maps, track their locations and show the estimate remaining time to reach. The functionalities provided by the system includes route information, shuttle information, stops information, map Generation, location tracking. Having these information in the database and constantly updating the database about the information of the shuttle and returning those information to the user.
 
 Novelty of the Project:
 
-	Its convenient way to track the collage shuttles’ timing and follow the schedule effectively based on the app.
-	Real time location view based on the GPS and server data.
-	User-friendly interface.
-	More accurate to predict expected arriving time of the shuttle.
+1.Its convenient way to track the collage shuttles’ timing and follow the schedule effectively based on the app.
+2.Real time location view based on the GPS and server data.
+3.User-friendly interface.
+4.More accurate to predict expected arriving time of the shuttle.
 
 
 Challenges of the Project:
