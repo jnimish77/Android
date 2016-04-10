@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculator_Project_1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_zero">0</string>
+
+    <string name="button_seven">7</string>
+
+    <string name="button_eight">8</string>
+
+    <string name="button_nine">9</string>
+
+    <string name="button_cancel">C</string>
+
+    <string name="Button_MR">MR</string>
+
+    <string name="Button_four">4</string>
+
+    <string name="Button_five">5</string>
+
+    <string name="Button_six">6</string>
+
+    <string name="Button_mul">*</string>
+
+    <string name="Button_MPlus">M+</string>
+
+    <string name="Button_one">1</string>
+
+    <string name="Button_two">2</string>
+
+    <string name="Button_three">3</string>
+
+    <string name="Button_sub">-</string>
+
+    <string name="Button_MMinus">M-</string>
+
+    <string name="Button_equal">=</string>
+
+    <string name="Button_div">/</string>
+
+    <string name="Button_add">+</string>
+
+    <string name="Button_MC">MC</string>
+
+    <string name="Button_button">.</string>
+
+    <string name="Button_square">x^2</string>
+
+    <string name="Button_openBracket">(</string>
+
+    <string name="Button_closeBracket">)</string>
+
+    <string name="Button_MS">MS</string>
+
+    <string name="Button_CE">CE</string>
+
+    <string name="Button_Backspace">←</string>
+
+    <string name="Button_root">sqrt</string>
+
+    <string name="Button_modulus">%</string>
+
+    <string name="onebyx">1/x</string>
+
+    <string name="plusorminus">±</string>
+
+    <string name="factorial">n!</string>
+
+    <string name="xpowery">x^y</string>
+
+    <string name="yrootx">y√x</string>
+
+    <string name="xcube">x^3</string>
+
+    <string name="cuberootofx">3√x</string>
+
+    <string name="log">log</string>
+
+    <string name="tenpowerx">10^x</string>
+
+    <string name="pi"> π</string>
+
+    <string name="mod">mod</string>
+
+
+</resources>
