@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/route_twelve"
+        android:clickable="true"
+        android:onClick="newmapsactivity"
+        android:id="@+id/route12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/route_fourteen"
+        android:clickable="true"
+        android:onClick="newmapsactivity"
+        android:id="@+id/route14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/route_twenty"
+        android:clickable="true"
+        android:onClick="newmapsactivity"
+        android:id="@+id/route20"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/route_twentytwo"
+        android:clickable="true"
+        android:onClick="newmapsactivity"
+        android:id="@+id/route22"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/route_fourty"
+        android:clickable="true"
+        android:onClick="newmapsactivity"
+        android:id="@+id/route40"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/route_fourtytwo"
+        android:clickable="true"
+        android:onClick="newmapsactivity"
+        android:id="@+id/route42"
+        android:layout_alignParentEnd="true" />
+</LinearLayout>

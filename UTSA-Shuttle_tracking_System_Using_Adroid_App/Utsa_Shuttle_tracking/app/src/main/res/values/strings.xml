@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Utsa_Shuttle_tracking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="route_twelve">Route 12</string>
+    <string name="route_fourteen">Route 14</string>
+    <string name="route_twenty">Route 20</string>
+    <string name="route_twentytwo">Route 22</string>
+    <string name="route_fourty">Route 40</string>
+    <string name="route_fourtytwo">Route 42</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
