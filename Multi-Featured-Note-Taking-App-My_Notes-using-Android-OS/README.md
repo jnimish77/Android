@@ -13,16 +13,18 @@
 
 
 
-* References:
+*References:
+
 https://stackoverflow.com/
+
 http://www.appsrox.com/
 http://arxiv.org/ftp/arxiv/papers/1311/1311.3371.pdf
-http://click.sourceforge.net/docs/pages.html
-https://developer.android.com/reference/java/lang/Class.html
-https://developer.android.com/reference/android/Manifest.html
-https://developer.android.com/tools/studio/index.html
-https://en.wikipedia.org/wiki/Microsoft_OneNote
-https://developer.android.com/reference/android/database/sqlite/package-summary.html
-http://www.slideshare.net/keithics/android-development-note-taking-app-from-scratch
-http://code.tutsplus.com/tutorials/building-a-note-taking-software-as-a-service-using-aspnet-mvc-5-stripe-and-azure--cms-22922
-https://developer.android.com/training/basics/data-storage/databases.html
+•	http://click.sourceforge.net/docs/pages.html
+•	https://developer.android.com/reference/java/lang/Class.html
+•	https://developer.android.com/reference/android/Manifest.html
+•	https://developer.android.com/tools/studio/index.html
+•	https://en.wikipedia.org/wiki/Microsoft_OneNote
+•	https://developer.android.com/reference/android/database/sqlite/package-summary.html
+•	http://www.slideshare.net/keithics/android-development-note-taking-app-from-scratch
+•	http://code.tutsplus.com/tutorials/building-a-note-taking-software-as-a-service-using-aspnet-mvc-5-stripe-and-azure--cms-22922
+•	https://developer.android.com/training/basics/data-storage/databases.html
