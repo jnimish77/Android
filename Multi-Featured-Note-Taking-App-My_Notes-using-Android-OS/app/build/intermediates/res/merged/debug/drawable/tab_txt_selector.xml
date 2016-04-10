@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_selected="true" android:color="#eeeeee"/>
+    <item android:color="#999999"/>
+</selector><!-- From: file:/C:/Users/Nimish/Desktop/Final_Project/My_Notes/app/src/main/res/drawable/tab_txt_selector.xml -->

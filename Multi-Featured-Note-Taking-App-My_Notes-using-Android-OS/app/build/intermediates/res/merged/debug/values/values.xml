@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Nimish/Desktop/Final_Project/My_Notes/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="default_category_opt_arr">
+        <item>Public</item>
+        <item>Last Created</item>
+        <item>Last Selected</item>
+    </string-array>
+    <string-array name="new_note_arr">
+        <item>Note</item>
+        <item>Checklist</item>
+        <item>Snapshot</item>
+    </string-array>
+    <string-array name="sort_options_arr">
+        <item>Last Modified Time</item>
+        <item>Alphabetical Order</item>
+        <item>Created Time</item>
+    </string-array>
+    <string-array name="time_opt_arr">
+        <item>Last Accessed Time</item>
+        <item>Created Time</item>
+    </string-array>
+    <string-array name="val_arr">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>        
+    </string-array>
+    <!-- From: file:/C:/Users/Nimish/Desktop/Final_Project/My_Notes/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">my_notes</string>
+    <string name="browse">Browse</string>
+    <string name="checklist">Checklist</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    <string name="go">Go</string>
+    <string name="lock">Lock</string>
+    <string name="manage">Manage</string>
+    <string name="new_item">New</string>
+    <string name="no_data">No data</string>
+    <string name="note">Note</string>
+    <string name="settings">Settings</string>
+    <string name="snapshot">Snapshot</string>
+    <string name="sort">Sort</string>
+    <string name="title">Title</string>
+    <string name="unlock">Unlock</string>
+    <!-- From: file:/C:/Users/Nimish/Desktop/Final_Project/My_Notes/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="TransparentExpandableListView" parent="@android:style/Widget.ExpandableListView">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+	</style>
+    <style name="TransparentListView" parent="@android:style/Widget.ListView">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+	</style>
+    <style name="app_theme" parent="@android:style/Theme">
+	    <item name="android:windowBackground">@drawable/bar_bg_repeat</item>
+	    <item name="android:windowContentOverlay">@drawable/title_bar_shadow</item>
+	    <item name="android:listViewStyle">@style/TransparentListView</item>
+	    <item name="android:expandableListViewStyle">@style/TransparentExpandableListView</item>
+	</style>
+    <style name="tab_label">
+	    <item name="android:shadowColor">#222222</item>
+	    <item name="android:shadowDx">0</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">1</item>
+	</style>
+</resources>
