@@ -6,7 +6,7 @@ The basic idea for this project is to guide the students by displaying shuttle r
 
 Novelty of the Project:
 
-1.Its convenient way to track the collage shuttles’ timing and follow the schedule effectively based on the app.
+1.Its convenient way to track the collage shuttles’ timing and follow the schedule effectively based on the app./
 2.Real time location view based on the GPS and server data.
 3.User-friendly interface.
 4.More accurate to predict expected arriving time of the shuttle.
