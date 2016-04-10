@@ -47,10 +47,9 @@ The limitations of this system are it does not provide information about density
 
 
 * Contributed With:
-
-        Kalidas Ganesh
-
-        Chapal Barua
+    
+    Kalidas Ganesh
+    Chapal Barua
 
 
 
