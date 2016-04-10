@@ -1,0 +1,401 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:id="@+id/">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:minHeight="100dp"
+        android:gravity="bottom|end"
+        android:layout_weight="2.5"
+
+
+
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/number7"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="MC"
+            android:onClick="findWhichButtonClickedOn"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="MR"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="MS"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="M+"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="M-"
+            android:onClick="findWhichButtonClickedOn" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="←"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="CE"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="C"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="±"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="√"
+                android:onClick="findWhichButtonClickedOn" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutrest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <!--  android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />-->
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:weightSum="2">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/layout4"
+            android:layout_toEndOf="@+id/layout4"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/layout5"
+            android:layout_toEndOf="@+id/layout5"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="7"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="8"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="9"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="/"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="%"
+            android:onClick="findWhichButtonClickedOn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="4"
+                android:onClick="findWhichButtonClickedOn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/linearLayout2"
+            android:layout_toEndOf="@+id/linearLayout2"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/linearLayout3"
+            android:layout_toEndOf="@+id/linearLayout3"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="5"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="6"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="*"
+            android:onClick="findWhichButtonClickedOn" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:text="1/x"
+            android:onClick="findWhichButtonClickedOn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2.5">
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="1"
+                android:layout_weight="1"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="."
+                android:layout_weight="1"
+                android:onClick="findWhichButtonClickedOn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/linearLayout6"
+            android:layout_toEndOf="@+id/linearLayout6"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="2"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+
+
+                android:id="@+id/button26"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="+"
+                android:onClick="findWhichButtonClickedOn" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="3"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:text="-"
+                android:layout_toRightOf="@+id/button27"
+                android:layout_toEndOf="@+id/button27"
+                android:onClick="findWhichButtonClickedOn" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="0"
+                android:layout_below="@+id/button27"
+                android:layout_alignLeft="@+id/button27"
+                android:layout_alignStart="@+id/button27"
+                android:layout_alignEnd="@+id/button28"
+                android:layout_alignRight="@+id/button28"
+                android:clickable="true"
+                android:onClick="findWhichButtonClickedOn" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/linearLayout7"
+            android:layout_toEndOf="@+id/linearLayout7"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="75dp"
+                android:layout_height="140dp"
+                android:text="="
+                android:onClick="findWhichButtonClickedOn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
