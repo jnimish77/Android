@@ -40,3 +40,5 @@ The system uses vehicle’s positional data and route information to calculate e
 
 
 The limitations of this system are it does not provide information about density of passenger. In this system admin maintain database information of buses and the system user. The system provides information of bus to the user which is transferred via internet to android application.
+
+
