@@ -15,10 +15,9 @@
 
 *References:
 
-https://stackoverflow.com/
-
-http://www.appsrox.com/
-http://arxiv.org/ftp/arxiv/papers/1311/1311.3371.pdf
+•	https://stackoverflow.com/
+•	http://www.appsrox.com/
+•	http://arxiv.org/ftp/arxiv/papers/1311/1311.3371.pdf
 •	http://click.sourceforge.net/docs/pages.html
 •	https://developer.android.com/reference/java/lang/Class.html
 •	https://developer.android.com/reference/android/Manifest.html
